@@ -41,9 +41,6 @@ theme <- theme(
   panel.background = element_blank(),
   axis.line = element_line(colour = "black"),
   
-  # Legend: top left
-  legend.position = "bottom", 
-  
   # Legend text size 
   legend.title = element_text(size = 8),
   legend.text = element_text(size = 8),
@@ -59,8 +56,7 @@ theme <- theme(
   
   # X, Y axis text size
   axis.text = element_text(size = 8),
-  axis.title = element_text(size = 8),
-  
+
   # Caption text size / font / color 
   plot.caption = element_text(size = 6,
                               face = "italic",
@@ -72,12 +68,15 @@ theme <- theme(
   # Y-axis ticks: remove
   axis.ticks.y = element_blank(),
   
-  # X-axis tick size 
-  axis.ticks.x = element_line(size = 0.2),
-  
   # X-axis text angle: 90 degree
-  axis.text.x = element_text(angle = 90),
+  axis.text.x = element_text(angle = 0,
+                             # move x-axis title to top
+                             vjust = 230),
   
-  # X-axis line weight 
-  axis.line.x.bottom=element_line(size = 0.2)
+  # remvoe x-axis line & ticks 
+  axis.line.x.bottom = element_blank(),
+  axis.ticks.x = element_blank(),
+ 
+   # remove x,y axis title
+  axis.title = element_blank()
 )

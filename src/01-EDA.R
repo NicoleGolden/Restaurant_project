@@ -4,10 +4,67 @@
 # load config 
 source("config/config.R")
 
+# load data 
+my_fav_restaurant_dessert <-
+  fread("cache/my_fav_restaurant_dessert.csv")
+
+my_fav_restaurant_pizza <-
+  fread("cache/my_fav_restaurant_pizza.csv")
+
+
+
+###########################
+###   1. Regular Plot  ###
+###########################
+
+# Average Price for each food type
+
+#-------------- 1. Plot raw data (with R default font)
+ggplot(my_fav_restaurant_sub, 
+       aes(x = purchase_date, 
+           y = mean_price)) + 
+  geom_line(aes(colour = item_type)) + 
+  labs(x = "Purchase Date",
+       y = "Average Price",
+       title = "Evolution of Food Prices At My Favorite Pizza Place",
+       caption = "Data Source: Doordash Orders") + 
+  # horizontal line
+  geom_hline(
+    yintercept = c(10, 15, 20, 25),
+    linetype = "solid", 
+    color = "gray", 
+    size = 0.2) + 
+  # vertical line
+  geom_vline(
+    xintercept = as.Date("2020-05-01"),
+    linetype = "dotted", 
+    color = "gray", 
+    size = 0.3) + 
+  # annotate vline
+  annotate(geom = "text",
+           label = as.character(
+             "First Purchase After Lockdown"),
+           x = as.Date("2020-05-01"),
+           y = 19.6,
+           angle = 0, 
+           vjust = 1,
+           color = "gray48",
+           size = 2.5) + 
+  scale_x_date(date_labels = '%m/%e/%y',
+               breaks = '4 week') +
+  scale_color_manual(
+    # specify colors: pink + blue
+    values = c("#f29c96", "#63b5cc"),
+    # specify legend title
+    name = "Food Type",
+    # specify legend labels
+    labels = c("Dessert", "Pizza")) + 
+  theme
+
 
 
 ##############################
-###   xkcd Style Plot   ###
+###   2. xkcd Style Plot   ###
 ##############################
 
 #------------------ 1. Import "xkcd" font 
@@ -33,16 +90,8 @@ if(.Platform$OS.type != "unix") {
   loadfonts()
 }
 
-#------------------ 2. Load data 
 
-# load data 
-my_fav_restaurant_dessert <-
-  fread("cache/my_fav_restaurant_dessert.csv")
-
-my_fav_restaurant_pizza <-
-  fread("cache/my_fav_restaurant_pizza.csv")
-
-#------------------ 3. get percentage increase 
+#------------------ 2. get percentage increase 
 # in average prices 
 
 # desset: 
@@ -64,7 +113,7 @@ pizza_change <-
 pizza_change
 
 
-#------------------ 4. Plot data
+#------------------ 3. Plot data
 ggplot() + 
   
   # add smooth lines 
@@ -133,5 +182,12 @@ ggplot() +
                breaks = '4 week') + 
   theme + 
   theme(text = element_text(family = "xkcd"))
+
+
+
+
+
+
+
 
 

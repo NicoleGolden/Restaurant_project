@@ -25,3 +25,13 @@ Figure 2: Price Changes Over Time (Use Smooth Lines)
 </center>
 
 ![](figure/fig3.png)
+
+## Take A Look At Price Change for Each Food Item 
+
+I think it might be intersting to take a look at price change for each food item. I standardized original price to 1, and divide the new price with original price. 
+(Spoiler alert: "Pere e Noci" is my favorite pizza! Because its absolute price and percentage change are not that crazy, I almost always order this one!)
+
+![](figure/fig5.png)
+
+
+
