@@ -15,7 +15,7 @@ I plotted with raw data first.
 <center>
 Figure 1: Price Changes Over Time (Raw Data)
 </center>
-![](figure/fig1.png)
+![](figure/fig4.png)
 
 Then I plotted with smoothed lines and indicated the price changes. For the pizza, the price increase is about 66%, and 33% increase for dessert!
 
