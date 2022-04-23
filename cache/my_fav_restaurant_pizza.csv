@@ -1,0 +1,65 @@
+year,purchase_date,item_type,item_name,price_paid,post_lockdown,order_more_than_once,mean_price
+2020,2020-01-19,pizza,Marinara,13,0,1,15
+2020,2020-01-19,pizza,Formaggio e Porri,17,0,1,15
+2020,2020-01-25,pizza,Saporita,18,0,1,15.5
+2020,2020-01-25,pizza,Marinara,13,0,1,15.5
+2020,2020-02-01,pizza,Saporita,18,0,1,15.5
+2020,2020-02-01,pizza,Marinara,13,0,1,15.5
+2020,2020-02-08,pizza,Pere e Noci,19,0,1,18.5
+2020,2020-02-08,pizza,Calzone,18,0,1,18.5
+2020,2020-02-15,pizza,Pere e Noci,19,0,1,19
+2020,2020-03-01,pizza,Pere e Noci,19,0,1,19
+2020,2020-03-07,pizza,Saporita,18,0,1,18
+2020,2020-03-07,pizza,Capricciosa,18,0,1,18
+2020,2020-03-14,pizza,"The """"Angelina"""" Pizza",21,0,1,17
+2020,2020-03-14,pizza,Marinara,13,0,1,17
+2020,2020-05-01,pizza,Capricciosa,19,1,1,18
+2020,2020-05-01,pizza,Vegana,17,1,1,18
+2020,2020-05-08,pizza,Saporita,19,1,1,18
+2020,2020-05-08,pizza,Vegana,17,1,1,18
+2020,2020-07-19,pizza,Pere e Noci,19,1,1,17
+2020,2020-07-19,pizza,Capricciosa,19,1,1,17
+2020,2020-07-19,pizza,Marinara,13,1,1,17
+2020,2020-07-27,pizza,Marinara,13,1,1,17
+2020,2020-07-27,pizza,Calzone,19,1,1,17
+2020,2020-07-27,pizza,Pere e Noci,19,1,1,17
+2020,2020-08-02,pizza,Saporita,19,1,1,19
+2020,2020-08-02,pizza,Pere e Noci,19,1,1,19
+2020,2020-08-26,pizza,Boscaiola,19,1,1,19
+2020,2020-08-26,pizza,Pere e Noci,19,1,1,19
+2020,2020-09-05,pizza,Formaggio e Porri,20,1,1,21.3333333333333
+2020,2020-09-05,pizza,Calzone,22,1,1,21.3333333333333
+2020,2020-09-05,pizza,Pere e Noci,22,1,1,21.3333333333333
+2020,2020-10-04,pizza,Calzone,22,1,1,22
+2020,2020-10-04,pizza,Pere e Noci,22,1,1,22
+2020,2020-10-18,pizza,Boscaiola,22,1,1,22
+2020,2020-10-18,pizza,Pere e Noci,22,1,1,22
+2020,2020-10-24,pizza,"The """"Angelina"""" Pizza",24,1,1,24
+2020,2020-11-01,pizza,"The """"Angelina"""" Pizza",24,1,1,24
+2020,2020-11-09,pizza,"The """"Angelina"""" Pizza",24,1,1,24
+2020,2020-11-20,pizza,Formaggio e Porri,23,1,1,23.5
+2020,2020-11-20,pizza,Pere e Noci,24,1,1,23.5
+2020,2020-11-30,pizza,Pere e Noci,24,1,1,24
+2021,2021-01-10,pizza,Capricciosa,25,1,1,24.5
+2021,2021-01-10,pizza,Pere e Noci,24,1,1,24.5
+2021,2021-01-26,pizza,Calabrese,25,1,1,24.5
+2021,2021-01-26,pizza,Pere e Noci,24,1,1,24.5
+2021,2021-02-15,pizza,Pere e Noci,24,1,1,23
+2021,2021-02-15,pizza,Calzone,22,1,1,23
+2021,2021-04-23,pizza,Pere e Noci,24,1,1,24
+2021,2021-05-29,pizza,Calzone,25,1,1,24.5
+2021,2021-05-29,pizza,Pere e Noci,24,1,1,24.5
+2021,2021-09-05,pizza,Formaggio e Porri,23,1,1,23.5
+2021,2021-09-05,pizza,Pere e Noci,24,1,1,23.5
+2021,2021-10-08,pizza,Pere e Noci,24,1,1,23.5
+2021,2021-10-08,pizza,Formaggio e Porri,23,1,1,23.5
+2022,2022-01-28,pizza,Pere e Noci,24,1,1,21.3333333333333
+2022,2022-01-28,pizza,Formaggio e Porri,23,1,1,21.3333333333333
+2022,2022-01-28,pizza,Marinara,17,1,1,21.3333333333333
+2022,2022-01-31,pizza,Pere e Noci,24,1,1,24
+2022,2022-03-27,pizza,Pere e Noci,24,1,1,24
+2022,2022-03-27,pizza,Formaggio e Porri,23,1,1,24
+2022,2022-03-27,pizza,Calzone,25,1,1,24
+2022,2022-04-02,pizza,Pere e Noci,24,1,1,23.5
+2022,2022-04-02,pizza,Vegana,21.5,1,1,23.5
+2022,2022-04-02,pizza,Calzone,25,1,1,23.5
