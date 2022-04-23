@@ -1,4 +1,4 @@
-## Evolution of Food Prices at My Fav Pizza Price
+## Evolution of Food Prices at My Fav Pizza Place
 
 Yes, inflation is here. As someone who has to order take-out food weekly, I defenitely feel the pinch since the lockdown in 2020. In this project, I collected food prices from my favoriate pizza place in Irvine. I used smooth lines to visualize the evolution of the price changes. 
 
