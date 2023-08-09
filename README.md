@@ -20,7 +20,7 @@ I plotted with raw data first.
 <p>
 
 <center>
-<img src="figure/fig2.png" width="450"/>
+<img src="figure/figure2.png" width="450"/>
 <h6>Figure 1 - Average Price Changes Over Time for Pizza and Dessert(Raw Data) (Image Source: Nicole Golden. Data Source: <a href=https://www.doordash.com/ target=_blank>Doordash</a>)
 </center>
 
